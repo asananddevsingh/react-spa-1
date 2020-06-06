@@ -1,0 +1,32 @@
+.Item {
+  width: calc(25% - 42px);
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #8c8c8c;
+  box-sizing: border-box;
+  transition: all 0.2s;
+  box-sizing: border-box;
+}
+
+.Item:hover {
+  border-color: transparent;
+  box-shadow: 0 0 15px -2px #8c8c8c;
+}
+
+.Item-Name {
+  color: #60dbfb;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.Vote-Wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Vote-Result {
+  color: #fff;
+  padding: 10px 0;
+  border: 1px solid #fff;
+  margin: 5px 0;
+}
